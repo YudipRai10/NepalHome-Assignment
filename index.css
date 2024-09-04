@@ -1,0 +1,471 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav .nepal-logo img {
+  width: 188px;
+  height: 60px;
+  max-width: 100%;
+  cursor: pointer;
+}
+.nav-links li {
+  color: #2b377f;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-links li:hover {
+  color: #1894df;
+}
+.arrow {
+  border: solid #2b377f;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+nav .btn-outline {
+  background-color: #fff;
+  border: 1px solid #0291dd;
+  color: #0291dd;
+}
+nav .btn {
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  gap: 8px;
+  padding: 6px 29px;
+}
+.section-one {
+  position: relative;
+}
+.section-one .img-cont {
+  width: 100%;
+  max-width: 100%;
+  height: 650px;
+}
+.img-cont img {
+  height: 100%;
+}
+.section-one .img-textCont {
+  position: absolute;
+  bottom: 100px;
+  left: 90px;
+}
+.section-one .buy-rent {
+  position: absolute;
+  left: 400px;
+  bottom: 65px;
+}
+.section-one .buy-rent p {
+  color: white;
+  width: 100px;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+.section-one .buy-rent p:hover {
+  border-bottom: 4px solid white;
+}
+.section-one .input-cont input {
+  border: none;
+  outline: none;
+}
+.section-two,
+.section-three {
+  background-color: #eef3f9;
+}
+.card-container,
+.house-container,
+.recent-container-top,
+.agency-container {
+  width: 1460px;
+  margin: auto;
+}
+.card {
+  flex-basis: 15%;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 25px 0px;
+  border-radius: 10px;
+  background-color: white;
+}
+.house-card {
+  flex-basis: 24%;
+  cursor: pointer;
+  border: 1px solid rgb(202, 202, 202);
+}
+.image-cont {
+  overflow: hidden; /* This hides any part of the image that overflows the container */
+  display: inline-block; /* Allows the container to fit the size of the image */
+  position: relative;
+}
+
+.image-cont img {
+  display: block; /* Removes extra space below the image */
+  transition: transform 0.3s ease; /* Smooth transition for the transform effect */
+  height: 250px;
+  object-fit: cover;
+}
+
+.image-cont:hover img {
+  transform: scale(
+    1.2
+  ); /* Scales the image to 120% of its original size on hover */
+}
+.image-cont button {
+  color: #004a75;
+  background: #cae7f9;
+  padding: 2px 17px;
+  border-radius: 18px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+.img-icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.img-icons i {
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: none;
+  opacity: 0.5;
+}
+.image-cont:hover .img-icons .fa-instagram {
+  display: flex;
+}
+.img-icons .fa-instagram:hover {
+  opacity: 1;
+}
+.img-icons .fa-instagram:hover + .fa-ellipsis {
+  display: flex;
+  opacity: 1;
+}
+.textUpper {
+  border-bottom: 1px solid gray;
+  padding-bottom: 40px;
+}
+.textUpper3,
+.textUpper4 {
+  padding-bottom: 10px;
+}
+.img-text button {
+  color: #686868;
+  background-color: hsla(0, 0%, 88%, 0.68);
+  padding: 1px 15px;
+  border-radius: 15px;
+}
+.img-text button:hover {
+  color: #1894df;
+}
+.para-one {
+  color: #004a75;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.para-two {
+  color: #4d4d4d;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease-out;
+}
+.para-two2 {
+  color: #1894df;
+  font-size: 20px;
+}
+.img-text:hover .para-two {
+  color: red; /* Change this color as needed */
+}
+.para-three {
+  color: #4e6072;
+  font-size: 14px;
+  font-weight: 500;
+}
+.text-D {
+  background-color: #e0e7f1;
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 0px 10px;
+}
+.sale-p {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 68px;
+  background-color: #75ea8f;
+  color: #004a75;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 5px 14px;
+}
+.text-D2 {
+  background-color: #e0e7f1;
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 0px 17px;
+}
+.call-home {
+  color: #003352;
+  font-size: 17px;
+  font-weight: 500;
+}
+.proper-ties {
+  color: #004a75;
+  font-size: 15px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.down-town {
+  font-size: 17px;
+  color: #003352;
+}
+.view-details {
+  color: #1894df;
+  font-size: 17px;
+}
+.recent-card {
+  flex-basis: 49%;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 10px;
+}
+.textUpper-recent {
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+.section-six {
+  background-color: #f8f8f8;
+}
+.agency-card {
+  flex-basis: 16%;
+  margin: 10px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.agency-cardTwo {
+  flex-basis: 16%;
+  margin: 0px 10px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.viewall-card {
+  flex-basis: 16%;
+  margin: 0px 10px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background: url(https://www.nepalhomes.com/public/media/64C049B6CDF64D7-IMG-20240726-WA0000.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.viewall-card p {
+  transition: all 0.5s ease-in;
+}
+.viewall-card:hover {
+  box-shadow: 2px 2px 5px gray, -2px 0px 5px grey;
+}
+.viewall-card:hover p {
+  font-size: 30px;
+}
+.fill-image {
+  height: 115px;
+  width: 200px;
+}
+.agency-card:hover,
+.agency-cardTwo:hover {
+  box-shadow: 2px 2px 5px gray, -2px 0px 5px grey;
+}
+footer {
+  background-color: #3491dd;
+}
+footer p,
+footer a {
+  color: white;
+}
+
+.subbox1 p,
+.subbox2 p {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+@media (max-width: 1475px) {
+  .house-container {
+    justify-content: flex-start;
+    width: 1380px;
+  }
+  .recent-container-top {
+    width: 1200px;
+  }
+  .agency-container {
+    width: 1000px;
+    margin: 0;
+  }
+  .viewall-card,
+  .home-search {
+    display: none !important;
+  }
+}
+@media (max-width: 1425px) {
+  .card-container {
+    width: 1100px;
+  }
+}
+@media (max-width: 1380px) {
+  .house-container {
+    justify-content: center !important;
+    width: 100%;
+    margin-left: 0;
+  }
+  .house4 {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .recent-container-top {
+    width: 100%;
+    justify-content: center;
+  }
+  .recenttwo-card {
+    display: none !important;
+  }
+  .lucky-housing,
+  .indus-nepal {
+    display: none !important;
+  }
+  .agency-container {
+    width: 767px;
+  }
+}
+@media (max-width: 1115px) {
+  .input-cont {
+    gap: 10px !important;
+  }
+  .img-textCont {
+    left: 0 !important;
+  }
+  .buy-rent {
+    left: 0 !important;
+  }
+  .card-container {
+    width: 760px;
+  }
+  .card p {
+    margin: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .house-container {
+    width: 100%;
+  }
+  .house3 {
+    display: none;
+  }
+}
+@media (min-width: 985px) {
+  .nav-links button svg {
+    display: none;
+  }
+  .nav-links .menu {
+    display: none;
+  }
+}
+@media (max-width: 985px) {
+  .nav-links li {
+    display: none;
+  }
+  .nav-links button {
+    background-color: #1894df;
+    color: white;
+    border: none;
+  }
+  .fya-fulla,
+  .se-rene {
+    display: none !important;
+  }
+}
+@media (min-width: 767px) {
+  .text-hidden {
+    display: none;
+  }
+}
+@media (min-width: 200px) and (max-width: 767px) {
+  .card-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .house-container,
+  .agency-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .agency-container .agency-cardTwo {
+    margin-top: 20px;
+  }
+  .text-show {
+    display: none;
+  }
+
+  .viewall-card {
+    margin-top: 20px;
+    padding: 80px 50px;
+    margin-bottom: 20px;
+  }
+  .featured-agencies {
+    text-align: center;
+  }
+  .recent-container-top {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .house3,
+  .house4,
+  .recenttwo-card,
+  .recent-card {
+    display: flex !important;
+  }
+  .card,
+  .house-card,
+  .recent-card {
+    margin-top: 10px;
+  }
+  .fya-fulla,
+  .se-rene,
+  .viewall-card,
+  .lucky-housing,
+  .indus-nepal,
+  .home-search {
+    display: block !important;
+  }
+  .box2,
+  .subbox2 {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .img-textCont {
+    display: none;
+  }
+}

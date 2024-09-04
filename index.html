@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page | Nepal Homes</title>
+    <script src="https://kit.fontawesome.com/841ba55fdb.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="flex justify-between py-2">
+        <div class="nepal-logo ml-16">
+          <img src="./nepalhomelogo.PNG" alt="nepalhome-logo" />
+        </div>
+        <div class="nav-links pt-2 mr-16">
+          <ul class="flex gap-10 items-center">
+            <li>Properties <i class="arrow down"></i></li>
+            <li>Auction <i class="arrow down"></i></li>
+            <li>News</li>
+            <li>Agencies</i></li>
+            <li>Tools <i class="arrow down"></i></li>
+            <button class="btn-outline btn text-xl flex items-center">LOGIN <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="ml-10" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d="M521.7 82c-152.5-.4-286.7 78.5-363.4 197.7-3.4 5.3.4 12.3 6.7 12.3h70.3c4.8 0 9.3-2.1 12.3-5.8 7-8.5 14.5-16.7 22.4-24.5 32.6-32.5 70.5-58.1 112.7-75.9 43.6-18.4 90-27.8 137.9-27.8 47.9 0 94.3 9.3 137.9 27.8 42.2 17.8 80.1 43.4 112.7 75.9 32.6 32.5 58.1 70.4 76 112.5C865.7 417.8 875 464.1 875 512c0 47.9-9.4 94.2-27.8 137.8-17.8 42.1-43.4 80-76 112.5s-70.5 58.1-112.7 75.9A352.8 352.8 0 0 1 520.6 866c-47.9 0-94.3-9.4-137.9-27.8A353.84 353.84 0 0 1 270 762.3c-7.9-7.9-15.3-16.1-22.4-24.5-3-3.7-7.6-5.8-12.3-5.8H165c-6.3 0-10.2 7-6.7 12.3C234.9 863.2 368.5 942 520.6 942c236.2 0 428-190.1 430.4-425.6C953.4 277.1 761.3 82.6 521.7 82zM395.02 624v-76h-314c-4.4 0-8-3.6-8-8v-56c0-4.4 3.6-8 8-8h314v-76c0-6.7 7.8-10.5 13-6.3l141.9 112a8 8 0 0 1 0 12.6l-141.9 112c-5.2 4.1-13 .4-13-6.3z"></path></svg></button>
+            <i class="fa-solid fa-bars menu text-blue-500 text-2xl"></i>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section-one">
+      <div class="img-cont">
+        <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2Ffiles%2F154CB286FA33469-Web-banner%20(1).png&w=1920&q=75" alt="background-photo" width="100%">
+      </div>
+      <div class="img-textCont text-center">
+        <div class="buy-rent md:flex gap-16">
+          <p>Buy</p>
+          <p>Rent</p>
+        </div>
+        <div class="input-cont sm:flex items-center py-1 px-2  mt-5 gap-20 bg-white rounded-full text-gray-400">
+          <input type="text" placeholder="Enter City, Locality, Project" class="sm:ml-5">
+          <p>|</p>
+          <div style="white-space: nowrap;">Property Type</div>
+          <div>|</div>
+          <div>Budget</div>
+          <div>|</div>
+          <button class="flex items-center gap-3 text-2xl py-1 px-8 rounded-full bg-cyan-400 text-white font-medium hover:bg-cyan-300"><i class="fa-solid fa-magnifying-glass text-lg"></i>
+          Search</button>
+        </div>
+      </div>  
+    </section>
+
+    <section class="section-two">
+      <p class="text-2xl font-medium sm:ml-24 sm:pt-10">Popular Categories</p>
+      <div class="card-container flex justify-around sm:mt-6">
+        <div class="card flex flex-col items-center justify-center hover:bg-blue-100">
+          <i class="fa-solid fa-house text-blue-500 text-4xl  p-6 rounded-full bg-blue-100 "></i>
+          <p class="text-lg font-semibold text-gray-600 sm:mt-5">House</p>
+          <p class="text-sm text-blue-400 sm:mt-3 py-1 px-4 rounded-full bg-white">3667</p>
+        </div>
+        <div class="card flex flex-col items-center justify-around hover:bg-blue-100">
+          <i class="fa-solid fa-earth-americas  text-blue-500 text-4xl border  p-6 rounded-full bg-blue-100"></i>
+          <p class="text-lg font-semibold text-gray-600 sm:mt-5">Land</p>
+          <p class="text-sm text-blue-400 sm:mt-3 py-1 px-4 rounded-full bg-white">1715</p>
+        </div>
+        <div class="card flex flex-col items-center justify-around hover:bg-blue-100">
+          <i class="fa-solid fa-house text-blue-500 text-4xl border  p-6 rounded-full bg-blue-100 "></i>
+          <p class="text-lg font-semibold text-gray-600 sm:mt-5">Flats</p>
+          <p class="text-sm text-blue-400 sm:mt-3 py-1 px-4 rounded-full bg-white">103</p>
+        </div>
+        <div class="card flex flex-col items-center justify-around hover:bg-blue-100">
+          <i class="fa-regular fa-building  text-blue-500 text-4xl border  px-7 py-6 rounded-full bg-blue-100"></i>
+          <p class="text-lg font-semibold text-gray-600 sm:mt-5">Office Space</p>
+          <p class="text-sm text-blue-400 sm:mt-3 py-1 px-4 rounded-full bg-white">167</p>
+        </div>
+        <div class="card shop flex flex-col items-center justify-around hover:bg-blue-100">
+          <i class="fa-regular fa-building  text-blue-500 text-4xl border  px-7 py-6 rounded-full bg-blue-100"></i>
+          <p class="text-lg font-semibold text-gray-600 sm:mt-5">Shop Space</p>
+          <p class="text-sm text-blue-400 sm:mt-3 py-1 px-4 rounded-full bg-white">29</p>
+        </div>
+        <div class="card apartment flex flex-col items-center justify-around hover:bg-blue-100">
+          <i class="fa-regular fa-building  text-blue-500 text-4xl border  px-7 py-6 rounded-full bg-blue-100"></i>
+          <p class="text-lg font-semibold text-gray-600 sm:mt-5">Apartment</p>
+          <p class="text-sm text-blue-400 sm:mt-3 py-1 px-4 rounded-full bg-white">320</p>
+        </div>        
+      </div>
+    </section>
+
+    <section class="section-three pb-10">
+      <p class="text-3xl font-bold sm:ml-24 sm:pt-10 sm:pb-10">Featured Projects</p>
+      <div class="house-container flex justify-between">
+        <div class="house-card rounded-lg">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2Fmedia%2FA0D45BBC317118F-Dhapakhel.jpg&w=1920&q=75" alt="first-house">
+            <button class="font-semibold">Rs. 2.5 Cr</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+          </div>
+          <div class="img-text px-5 pt-5">
+            <div class="textUpper">
+              <p class="para-one">Housing & Apartment</p>
+              <p class="para-two">Downtown Residency</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Dhapakhel Lalitpur Metropolitan Cit ...</p>
+              <button class="mt-3">6 Properties</button>
+            </div>
+            <div class="textLower flex items-center pt-4 pb-6 gap-3">
+              <p class="text-D">D</p>
+              <p class="down-town whitespace-nowrap font-medium">Downtown Housing</p>
+              <p class="view-details font-semibold whitespace-nowrap">View Details</p>
+            </div>
+          </div>
+        </div>
+        <div class="house-card rounded-lg">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2Fmedia%2F8591FA076467339-F5-1-1024x576.jpg&w=1920&q=75" alt="second-house">
+            <button class="font-semibold">Rs. 3.65 Cr - Rs. 5 Cr</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+          </div>
+          <div class="img-text px-5 pt-5">
+            <div class="textUpper">
+              <p class="para-one">Housing</p>
+              <p class="para-two">Downtown Residency</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Bhaisepati Lalitpur Metropolitan Cit ...</p>
+              <button class="mt-3">17 Properties</button>
+            </div>
+            <div class="textLower flex items-center pt-4 pb-6 gap-3">
+              <p class="text-D">D</p>
+              <p class="down-town whitespace-nowrap font-medium">Downtown Housing</p>
+              <p class="view-details font-semibold whitespace-nowrap">View Details</p>
+            </div>
+          </div>
+        </div>
+        <div class="house-card house3 rounded-lg">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2Fmedia%2FFDC8FBD482990D1-13.1%20(1)%20(1).jpg&w=1920&q=75" alt="third-house">
+            <button class="font-semibold">Price on Call</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+          </div>
+          <div class="img-text px-5 pt-5">
+            <div class="textUpper textUpper3">
+              <p class="para-one">Housing</p>
+              <p class="para-two">Premium Houses at CG Villas, Sunakothi</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Thecho Godawari Municipality</p>
+              <button class="mt-3">6 Properties</button>
+            </div>
+            <div class="textLower flex items-center pt-4 pb-6 gap-3">
+              <p class="text-D">C</p>
+              <p class="down-town whitespace-nowrap font-medium">CG Properties</p>
+              <p class="view-details font-semibold whitespace-nowrap">View Details</p>
+            </div>
+          </div>
+        </div>
+        <div class="house-card house4 rounded-lg">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2Fmedia%2F0B7678C46B931B0-4%20(1).jpg&w=1920&q=75" alt="fourth-house">
+            <button class="font-semibold">Price on Call</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+          </div>
+          <div class="img-text px-5 pt-5">
+            <div class="textUpper textUpper4">
+              <p class="para-one">Housing</p>
+              <p class="para-two">Booking open at CG Village, Panauti</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Bhandari Gaun Panauti Municipality</p>
+              <button class="mt-3">39 Properties</button>
+            </div>
+            <div class="textLower flex items-center pt-4 pb-6 gap-3">
+              <p class="text-D">C</p>
+              <p class="down-town whitespace-nowrap font-medium">CG Properties</p>   
+              <p class="view-details font-semibold whitespace-nowrap">View Details</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-four">
+      <p class="text-3xl font-bold sm:ml-24 sm:pt-10 sm:pb-10">Premium Properties <i class="fa-solid fa-crown text-yellow-400 text-2xl"></i></p>
+      <div class="house-container flex justify-between">
+        <div class="house-card rounded-lg">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/public/media/5B0CC17E1EF6CE8-IMG-20240510-WA0021.jpg" alt="first-house">
+            <button class="font-semibold">Rs. 6.3 Cr</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+            <p class="sale-p">Sale</p>
+          </div>
+          <div class="img-text px-5 pt-5">
+            <div class="textUpper">
+              <p class="para-one">House</p>
+              <p class="para-two2 font-bold">House for Sale</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Golfutar, Budhanilkantha Municipali...</p>
+              <p style="color: #4e6072;"><i class="fa-solid fa-ruler"></i> 13 Feet</p>
+            </div>
+            <div class="textLower flex items-center justify-between pt-4 pb-6 gap-3">
+              <div class="flex gap-3">
+                <p class="text-D2">C</p>
+              <div>
+                <p class="call-home">Call For Home</p>
+                <p class="proper-ties">109 Properties</p>
+              </div>
+              </div>
+              <p class="view-details font-semibold whitespace-nowrap">View Details</p>
+            </div>
+          </div>
+        </div>
+        <div class="house-card rounded-lg">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/public/media/4CB6C982845E40B-448221029_927451886058827_4254678095956810535_n%20-%20Copy.jpg" alt="second-house">
+            <button class="font-semibold">Rs. 3.9 Cr</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+            <p class="sale-p">Sale</p>
+          </div>
+          <div class="img-text px-5 pt-5">
+            <div class="textUpper">
+              <p class="para-one">House</p>
+              <p class="para-two2 font-bold">House for Sale</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Imadol, Mahalaxmi Municipality</p>
+              <p style="color: #4e6072;"><i class="fa-solid fa-ruler"></i> 20 Feet</p>
+            </div>
+            <div class="textLower flex items-center justify-between pt-4 pb-6 gap-3">
+              <div class="flex gap-3">
+                <p class="text-D2">G</p>
+              <div>
+              <p class="call-home">G.P. Real Estate...</p>
+                <p class="proper-ties">275 Properties</p>
+              </div>
+              </div>
+              <p class="view-details font-semibold whitespace-nowrap">View Details</p>
+            </div>
+          </div>
+        </div>      
+        <div class="house-card rounded-lg">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/public/media/298CA9D99D56581-451976216_953008586836490_955359954404114882_n.jpg" alt="third-house">
+            <button class="font-semibold">Rs. 2.95 Cr</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+            <p class="sale-p">Sale</p>
+          </div>
+          <div class="img-text px-5 pt-5">
+            <div class="textUpper">
+              <p class="para-one">House</p>
+              <p class="para-two2 font-bold">House for Sale</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Kapan, Budhanilkantha Municipality</p>
+              <p style="color: #4e6072;"><i class="fa-solid fa-ruler"></i> 20 Feet</p>
+            </div>
+            <div class="textLower flex items-center justify-between pt-4 pb-6 gap-3">
+              <div class="flex gap-3">
+                <p class="text-D2">G</p>
+              <div>
+              <p class="call-home">G.P. Real Estate...</p>
+                <p class="proper-ties">275 Properties</p>
+              </div>
+              </div>
+              <p class="view-details font-semibold whitespace-nowrap">View Details</p>
+            </div>
+          </div>
+        </div>      
+        <div class="house-card house4 rounded-lg">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/public/media/4CB6C982845E40B-448221029_927451886058827_4254678095956810535_n%20-%20Copy.jpg" alt="second-house">
+            <button class="font-semibold">Rs. 3.9 Cr</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+            <p class="sale-p">Sale</p>
+          </div>
+          <div class="img-text px-5 pt-5">
+            <div class="textUpper">
+              <p class="para-one">House</p>
+              <p class="para-two2 font-bold">House for Sale</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Imadol, Mahalaxmi Municipality</p>
+              <p style="color: #4e6072;"><i class="fa-solid fa-ruler"></i> 20 Feet</p>
+            </div>
+            <div class="textLower flex items-center justify-between pt-4 pb-6 gap-3">
+              <div class="flex gap-3">
+                <p class="text-D2">G</p>
+              <div>
+              <p class="call-home">G.P. Real Estate...</p>
+                <p class="proper-ties">275 Properties</p>
+              </div>
+              </div>
+              <p class="view-details font-semibold whitespace-nowrap">View Details</p>
+            </div>
+          </div>
+        </div>      
+      </div>
+    </section>
+
+    <section class="section-five pb-10">
+      <p class="text-3xl font-bold sm:ml-24 sm:pt-10 sm:pb-10">Recent Properties</p>
+      <div class="recent-container-top flex gap-7">
+        <div class="recent-card flex">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/public/media/254F1B5577FA159-Z-2.jpg" alt="house-first" class="cursor-pointer">
+            <button class="font-semibold">Rs. 3.3 Cr</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+            <p class="sale-p">Sale</p>
+          </div>
+          <div class="house-details">
+            <div class="textUpper-recent md:ml-5 md:pt-5">
+              <p class="para-one cursor-pointer hover:text-blue-950">House</p>
+              <p class="para-two2 font-bold cursor-pointer">House for Sale</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Budhanilkantha, Budhanilkantha  Municipality</p>
+              <p style="color: #4e6072;"><i class="fa-solid fa-ruler"></i> 13 Feet</p>
+            </div>
+            <div class="textLower flex items-center justify-between pt-4 pb-6 gap-3">
+              <div class="flex gap-3">
+                <p class="text-D2">F</p>
+                <div>
+                  <p class="call-home cursor-pointer">Fix Home Solutions</p>
+                  <p class="proper-ties cursor-pointer">238 Properties</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recent-card recenttwo-card flex">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/public/media/B6A95CE869DC129-WhatsApp%20Image%202024-07-23%20at%2009.58.07_dc33b72a.jpg" alt="house-second" class="cursor-pointer">
+            <button class="font-semibold">Rs. 3 Cr</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+            <p class="sale-p">Sale</p>
+          </div>
+          <div class="house-details">
+            <div class="textUpper-recent md:ml-5 md:pt-5">
+              <p class="para-one cursor-pointer hover:text-blue-950">House</p>
+              <p class="para-two2 font-bold cursor-pointer">4 BHK House for Sale</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Mahalaxmisthan, Lalitpur Metropolitan City</p>
+              <p style="color: #4e6072;"><i class="fa-solid fa-ruler"></i> 13 Feet</p>
+            </div>
+            <div class="textLower flex items-center justify-between pt-4 pb-6 gap-3">
+              <div class="flex gap-3">
+                <p class="text-D2">C</p>
+                <div>
+                  <p class="call-home cursor-pointer">Capital Realtor Nepal</p>
+                  <p class="proper-ties cursor-pointer">32 Properties</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+      <div class="recent-container-top flex gap-7 md:mt-10">
+        <div class="recent-card flex">
+          <div class="image-cont">
+            <img src="https://www.nepalhomes.com/public/media/F639B63AE0CA1E5-WhatsApp%20Image%202024-07-24%20at%2018.13.31_0e442a5a.jpg" alt="house-first" class="cursor-pointer">
+            <button class="font-semibold">Rs. 7 Lac /m</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+            <p class="sale-p">RENT</p>
+          </div>
+          <div class="house-details">
+            <div class="textUpper-recent md:ml-5 md:pt-5">
+              <p class="para-one cursor-pointer hover:text-blue-950">Office Space</p>
+              <p class="para-two2 font-bold cursor-pointer">Office Space for Rent</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Mid-Baneswhor, Kathmandu  Metropolitan City</p>
+              <p style="color: #4e6072;"><i class="fa-solid fa-ruler"></i> 13 Feet</p>
+            </div>
+            <div class="textLower flex items-center justify-between pt-4 pb-6 gap-3">
+              <div class="flex gap-3">
+                <p class="text-D2">C</p>
+                <div>
+                  <p class="call-home cursor-pointer">Capital Realtor Nepal</p>
+                  <p class="proper-ties cursor-pointer">32 Properties</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recent-card recenttwo-card flex">
+          <div class="image-cont ">
+            <img src="https://www.nepalhomes.com/public/media/77D855E767FD3D2-z-2.jpg" alt="house-second" class="cursor-pointer">
+            <button class="font-semibold">Rs. 1.25 /m</button>
+            <div class="img-icons flex flex-col">
+              <i class="fa-brands fa-instagram text-blue-800"></i>
+              <i class="fa-solid fa-ellipsis text-blue-800 mt-2"></i>
+            </div>
+            <p class="sale-p">Sale</p>
+          </div>
+          <div class="house-details">
+            <div class="textUpper-recent md:ml-5 md:pt-5">
+              <p class="para-one cursor-pointer hover:text-blue-950">House</p>
+              <p class="para-two2 font-bold cursor-pointer">House for Rent</p>
+              <p class="para-three mt-1"><i class="fa-solid fa-location-dot"></i> Mahalaxmisthan, Lalitpur Metropolitan City</p>
+              <p style="color: #4e6072;"><i class="fa-solid fa-ruler"></i> 13 Feet</p>
+            </div>
+            <div class="textLower flex items-center justify-between pt-4 pb-6 gap-3">
+              <div class="flex gap-3">
+                <p class="text-D2">F</p>
+                <div>
+                  <p class="call-home cursor-pointer">Fix Home Capitals</p>
+                  <p class="proper-ties cursor-pointer">238 Properties</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+    </section>
+
+    <section class="section-six pb-10">
+     <div class="featured-agencies sm:flex items-end gap-4 sm:ml-24 sm:pt-10 sm:pb-10">
+      <p class="font-bold text-3xl text-gray-700">Featured Agencies</p>
+      <p class="text-gray-600">Explore properties from our partner agencies</p>
+     </div>
+     <div class="agency-container flex">
+      <div class="agency-card flex flex-col items-center justify-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2F0ED332013E5D3E4-WhatsApp%20Image%202024-07-18%20at%2012.14.06_26a914c2.jpg&w=1920&q=75" alt="sagun" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-lg m-3 pb-7 cursor-pointer">Sagun Homes</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>398</b> Properties</p>
+      </div>
+      <div class="agency-card flex flex-col items-center justify-center text-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2FB9290268B115E84-Sara%20sewa.jpg&w=1920&q=75" alt="sara" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-show text-lg m-3 cursor-pointer">Sara Sewa Private Limited</p>
+        <p class="font-medium text-hidden text-lg m-3 pb-7 cursor-pointer">Sara Sewa Pri...</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>391</b> Properties</p>
+      </div>
+      <div class="agency-card flex flex-col items-center justify-center text-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2F0D17428BFBEE957-WhatsApp%20Image%202023-06-22%20at%2012.02.21.jpg&w=1920&q=75" alt="nepal-real-estate" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-show text-lg m-3 cursor-pointer">Nepal Real Estate Solution</p>
+        <p class="font-medium text-hidden text-lg m-3 pb-7 cursor-pointer">Nepal Real Est...</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>379</b> Properties</p>
+      </div>
+      <div class="agency-card fya-fulla flex flex-col items-center justify-center text-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2FB77B788F12CB4B6-fyafulla-logo-copy-1.png&w=1920&q=75" alt="fyafulla" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-show text-lg m-3 cursor-pointer">Fyafulla Real Estate Services</p>
+        <p class="font-medium text-hidden text-lg m-3 pb-7 cursor-pointer">Fyafulla Real...</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>354</b> Properties</p>
+      </div>
+      <div class="agency-card indus-nepal flex flex-col items-center justify-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2F10D716777419014-Indus_Property-removebg-preview.png&w=1920&q=75" alt="indus" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-lg m-3 pb-7 cursor-pointer">Indus Property Nepal</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>325</b> Properties</p>
+      </div>
+      <div class="agency-card home-search flex flex-col items-center justify-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2F4563CB9092A9DA4-WhatsApp%20Image%202023-06-25%20at%2016.30.13.jpeg&w=1920&q=75" alt="nepal-home" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-lg m-3 pb-7 cursor-pointer">Nepal Home Search</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>308</b> Properties</p>
+      </div>
+     </div>
+     <div class="agency-container flex">
+      <div class="agency-cardTwo flex flex-col items-center justify-center text-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2F48DF643C67FDB74-259520666_3451087811784768_5001506536479431555_n-removebg-preview.png&w=1920&q=75" alt="G.P" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-lg m-3 cursor-pointer">G.P. Real Estate Services</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>278</b> Properties</p>
+      </div>
+      <div class="agency-cardTwo flex flex-col items-center justify-center text-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2F6C73CAB812E6700-Fix_Home_Solution-removebg-preview.png&w=1920&q=75" alt="fix-home" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-lg m-3 pb-7 cursor-pointer">Fix Home Solution</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>239</b> Properties</p>
+      </div>
+      <div class="agency-cardTwo flex flex-col items-center justify-center text-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2FAC862416E202769-278568197_109199448436132_5417447936401140309_n.jpg&w=1920&q=75" alt="property-nepal" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-lg m-3 pb-7 cursor-pointer">Property in Nepal</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>232</b> Properties</p>
+      </div>
+      <div class="agency-cardTwo se-rene flex flex-col items-center justify-center text-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2F82B50B9335943C9-Serene%20logo.jpg&w=1920&q=75" alt="serene-estate" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-lg m-3 pb-7 cursor-pointer">Serene Estate</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>139</b> Properties</p>
+      </div>
+      <div class="agency-cardTwo lucky-housing flex flex-col items-center justify-center text-center">
+        <div class="fill-image cursor-pointer">
+          <img src="https://www.nepalhomes.com/_next/image?url=https%3A%2F%2Fwww.nepalhomes.com%2Fpublic%2F400-400%2Fagency%2F41D1F2BC4B0A6BB-Lucky%20housing%20png.png&w=1920&q=75" alt="lucky-housing" class="w-[100%] h-[100%] object-contain">
+        </div>
+        <p class="font-medium text-show text-lg m-3 cursor-pointer">Lucky Housing and Real Estate</p>
+        <p class="font-medium text-hidden text-lg m-3 cursor-pointer">Lucky Housing...</p>
+        <p class="text-blue-900 font-semibold mb-3 bg-blue-100 px-4 rounded-full cursor-pointer"><b>325</b> Properties</p>
+      </div>
+      <div class="viewall-card flex flex-col items-center justify-center bg-blue-400 cursor-pointer">
+        <p class="text-2xl font-bold text-white">VIEW ALL</p>
+      </div>
+    </section>
+
+    <footer class="pt-10 pb-14">
+      <div class="lg:flex justify-start">
+        <div class="box1 sm:ml-10">
+          <p class="text-white"><span class="font-semibold text-3xl">NepalHomes</span>.COM</p>
+          <div class="mt-4">
+            <p class="text-lg">Rudramati Marg,</p>
+            <p class="text-lg font-medium hover:underline cursor-pointer" >Bijulibazar, Kathmandu 44600</p>
+          </div>
+          <div class="mt-8">
+            <p class="text-lg font-semibold cursor-pointer hover:text-gray-300">+977 9801128810</p>
+            <p class="text-lg font-semibold cursor-pointer hover:text-gray-300">+977 9801189696</p>
+          </div>
+          <div class="mt-8">
+            <a href="#" class="font-semibold underline hover:text-gray-300">support@nepalhomes.com</a>
+          </div>
+        </div>
+        <div class="md:flex justify-between lg:ml-[200px] sm:ml-10">
+          <div class="box2 sm:flex justify-start">
+            <div class="subbox1 md:pr-[175px] sm:pr-20">
+              <p class="cursor-pointer hover:text-gray-300">House</p>
+              <p class="mt-3 cursor-pointer hover:text-gray-300">Land</p>
+              <p class="mt-3 cursor-pointer hover:text-gray-300">Flats</p>
+              <p class="mt-3 cursor-pointer hover:text-gray-300">Office Space</p>
+              <p class="mt-3 cursor-pointer hover:text-gray-300">Shop Space</p>
+              <p class="mt-3 cursor-pointer hover:text-gray-300">Apartment</p>
+            </div>
+            <div class="subbox2 md:pr-[175px] sm:pr-20">
+              <p class="cursor-pointer hover:text-gray-300">Properties</p>
+              <p class="mt-3 cursor-pointer hover:text-gray-300">News</p>
+              <p class="mt-3 cursor-pointer hover:text-gray-300">Advertise</p>
+              <p class="mt-3 cursor-pointer hover:text-gray-300">Agencies</p>
+              <p class="mt-3 cursor-pointer hover:text-gray-300">Home Loan</p>
+            </div>
+          </div>
+          <div class="box3">
+            <p class="text-2xl font-semibold">Follow Us:</p>
+            <div class="mt-5">
+              <i class="text-gray-300 text-4xl hover:text-gray-100 cursor-pointer fa-brands fa-facebook-f fa-fw"></i>
+              <i class="text-gray-300 text-4xl hover:text-gray-100 cursor-pointer fa-brands fa-instagram fa-fw"></i>
+              <i class="text-gray-300 text-4xl hover:text-gray-100 cursor-pointer fa-brands fa-x-twitter fa-fw"></i>
+            </div>
+            <img src="https://www.nepalhomes.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fplaystore.b39a5edf.png&w=640&q=75" alt="google-play" width="200px" class="cursor-pointer mt-5">
+          </div>
+        </div>
+      </div>
+      <p class="sm:ml-10 mt-10">Copyright © 2022 NepalHomes.com. PropTech Nepal Private Limited. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
+
